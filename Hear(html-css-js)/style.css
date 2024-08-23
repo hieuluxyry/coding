@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Ẩn thanh cuộn */
+}
+canvas {
+    background: hotpink; /* Đặt màu nền của canvas */
+    display: block; /* Đảm bảo canvas chiếm toàn bộ không gian */
+}
+h1 {
+    position: absolute;
+    color: pink;
+    font-size: 30px;
+    z-index: 1; /* Đặt trên cùng để luôn hiển thị */
+    pointer-events: none; /* Đảm bảo chữ không nhận sự tương tác */
+    width: 100%; /* Đảm bảo chữ nằm ngang trong khung hình */
+    text-align: center; /* Canh giữa chữ theo chiều ngang */
+    top: 60%; /* Đặt vị trí của chữ bên dưới ảnh */
+}
