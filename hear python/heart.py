@@ -8,7 +8,7 @@ screen.title("Draw Heart")
 # Tạo đối tượng con rùa
 heart = turtle.Turtle()
 heart.hideturtle()
-turtle.tracer(5)
+turtle.tracer(2)
 
 
 # Hàm vẽ trái tim
@@ -57,10 +57,7 @@ heart.goto(0, -250)
 heart.color('red')
 heart.pendown()
 heart.write(
-    "Có một đàn chim nhỏ\n"
-    "Bay nhảy chẳng âu lo\n"
-    "Anh ước mình như nó\n"
-    "Yêu em chẳng đắn đo\n",
+    " Quynh Anh ,I Love You Very Much",
     font=("Times New Roman", 15, "italic"),
     align="center"
 )
